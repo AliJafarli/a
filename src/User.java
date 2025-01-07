@@ -10,7 +10,7 @@ public class User {
 
     }
 
-     public int getId() {
+    public int getId() {
         return id;
 
     }
@@ -19,12 +19,12 @@ public class User {
         return name;
     }
 
-     public int getAge() {
+    public int getAge() {
         return age;
     }
 
     @Override
-     public String toString() {
+    public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
