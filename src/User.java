@@ -1,3 +1,5 @@
+import java.util.Optional;
+
 public class User {
     private int id;
     private String name;
@@ -11,7 +13,7 @@ public class User {
 
     }
 
-    public int getId() {
+      public int getId() {
         return id;
 
     }
@@ -43,5 +45,6 @@ public class User {
         return name != null ? name.equals(user.name) : user.name == null;
 
     }
+
 
 }
